@@ -1,5 +1,5 @@
 # gnl-tester
-##Initial setting
+## Initial setting
 Set the GNL-project pass in `Makefile`
-##Run
+## Run
 `bash run_test.sh`
