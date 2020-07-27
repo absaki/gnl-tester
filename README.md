@@ -14,8 +14,8 @@ if you work in the directory like this.
 |	├── get_next_line_bonus.c
 │   ├── get_next_line_bonus.h
 |	└── get_next_line_util_bonus.c
-├── gnl-tester
-│	├── README.sh
+├── gnl-tester(this repo)
+│	├── README.sh(this file)
 │	├── test_files.c
 |	├── test_strdin.c
 |	├──...
