@@ -18,15 +18,16 @@ run:
 	./a.out > result7.txt
 	gcc $(CFLAGS) test_files.c $(PASS)get_next_line.c $(PASS)get_next_line_utils.c
 	./a.out > result8.txt
-	diff result1.txt result2.txt
-	diff result2.txt result3.txt
-	diff result3.txt result4.txt
-	diff result4.txt result5.txt
-	diff result5.txt result6.txt
-	diff result6.txt result7.txt
-	diff result7.txt result8.txt
+	diff result.txt result1.txt
+	diff result.txt result2.txt
+	diff result.txt result3.txt
+	diff result.txt result4.txt
+	diff result.txt result5.txt
+	diff result.txt result6.txt
+	diff result.txt result7.txt
+	diff result.txt result8.txt
 	gcc $(CFLAGS) test_stdin.c $(PASS)get_next_line.c $(PASS)get_next_line_utils.c
 	./a.out
 	
 clean:
-	rm result*.txt
+	rm result[1-8].txt
