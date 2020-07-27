@@ -1,4 +1,5 @@
 # gnl-tester
+This is a test tool for the Get Next Line project.
 ## Initial setting
 Set the GNL-project pass in `Makefile`
 ### Example
