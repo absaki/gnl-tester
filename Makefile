@@ -31,3 +31,6 @@ run:
 	
 clean:
 	rm result[1-8].txt
+
+fclean: clean
+	rm a.out
