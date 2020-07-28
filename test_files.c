@@ -27,10 +27,7 @@ int main(void)
 
 			output = malloc(sizeof(char **));
 			return_num = get_next_line(fd, output);
-			if (j == 1 || return_num != 1)
-				printf("line%d return = %d\nline = %s\n", j++, return_num, *output);
-			else
-				j++;
+			printf("line%d return = %d\nline = %s\n", j++, return_num, *output);
 			free(output);
 			if (return_num != 1)
 				break;
